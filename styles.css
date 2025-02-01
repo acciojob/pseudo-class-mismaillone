@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+:root{
+	
+}
+.container{
+	margin:20px;
+	display:flex;
+}
+p:first-line{
+	color:rgb(255, 0, 0);
+}
+p:last-child{
+	color:rgb(255, 0, 0);
+}
