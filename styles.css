@@ -1,23 +1,16 @@
 #container {
   margin: 20px;
-  position: relative; /* Make sure the container is positioned correctly for pseudo-elements */
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 #container::before {
   content: "Before Content";
   color: #f00;
   font-size: 20px;
-  position: absolute;
-  top: -30px; /* Adjusts the position above the container */
-  left: 0;
 }
 
 #container::after {
   content: "After Content";
   color: #f00;
   font-size: 20px;
-  position: absolute;
-  bottom: -30px; /* Adjusts the position below the container */
-  left: 0;
 }
