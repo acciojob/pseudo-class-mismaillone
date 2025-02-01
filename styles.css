@@ -4,13 +4,13 @@
 }
 
 #container::before {
-  content: "Before Content";
+  content: "Before Element"; /* Match Cypress test expectation */
   color: #f00;
   font-size: 20px;
 }
 
 #container::after {
-  content: "After Content";
+  content: "After Element"; /* Match Cypress test expectation */
   color: #f00;
   font-size: 20px;
 }
